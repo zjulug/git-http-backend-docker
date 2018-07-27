@@ -6,4 +6,4 @@ RUN update-rc.d fcgiwrap enable
 
 COPY git-server.conf /etc/nginx/sites-enabled/default
 
-CMD  ["nginx", "-g", "daemon off;"]
+CMD  service fcgiwrap start && nginx -g "daemon off;"
