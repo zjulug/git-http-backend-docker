@@ -1,6 +1,6 @@
 # Git Http Backend Docker Image
 
-This is a docker image contains a git-http-backend server.
+This is a git-http-backend server docker image.
 
 ## Usage
 
